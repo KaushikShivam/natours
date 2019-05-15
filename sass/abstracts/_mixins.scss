@@ -15,23 +15,23 @@
 
 // MEDIA QUERY MANAGER
 
+// MEDIA QUERY MANAGER
 /*
-0-600px: Phone
-600-900px: Tablet portrait
-900-1200px: Tablet landscape
-[1200-800] is where our normal styles apply
-1800px+ : big desktop
+0 - 600px:      Phone
+600 - 900px:    Tablet portrait
+900 - 1200px:   Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800px + :      Big desktop
 
-$breakpoint argument choices
+$breakpoint arguement choices:
 - phone
 - tab-port
 - tab-land
 - big-desktop
 
-//Rems/ems in media queries are not affect by the root font size that we have set and are instead defined by the defaunt broswer font size. Rems respond weird so we will use ems instead
+ORDER: Base + typography > general layout + grid > page layout > components
 
-1em = 16px; (defaunt browser font size)
-
+1em = 16px
 */
 
 @mixin respond($breakpoint) {
