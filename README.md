@@ -78,7 +78,7 @@ The project uses [AutoPrefixer](https://github.com/postcss/autoprefixer), [Node-
 ```
 3. Script to run both simultaneously
 ```
-"start": "npm-run-all --parallel devserver watch:sass",
+"start": "npm-run-all --parallel devserver watch:sass"
 ```
 
 Run ```npm start``` to run the script
